@@ -19,7 +19,30 @@ class ContactController {
     res.json(contact);
   }
 
-  store() {}
+  async store(req, res) {
+    const {
+      email, name, category_id, phone,
+    } = req.body;
+
+    if (!name) {
+      return res.status(400).json({ error: 'name is required' });
+    }
+
+    const contactExists = await ContactsRepository.findByEmail(email);
+
+    if (contactExists) {
+      return res.status(400).json({ error: 'User already exists' });
+    }
+
+    const contact = await ContactsRepository.create({
+      email,
+      name,
+      category_id,
+      phone,
+    });
+
+    res.json(contact);
+  }
 
   update() {}
 
@@ -34,7 +57,7 @@ class ContactController {
 
     await ContactsRepository.delete(id);
 
-    // 204: OK, but NO has Content
+    // 204: OK, but has NO Content
     res.sendStatus(204);
   }
 }

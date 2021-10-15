@@ -23,6 +23,7 @@
     ],
     "class-methods-use-this": "off",
     "no-unused-vars": "warn",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "camelcase": "off"
   }
 }
