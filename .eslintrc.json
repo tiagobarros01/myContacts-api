@@ -22,8 +22,9 @@
       }
     ],
     "class-methods-use-this": "off",
-    "no-unused-vars": "warn",
     "consistent-return": "off",
-    "camelcase": "off"
+    "camelcase": "off",
+    "no-console": "off",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "next" }]
   }
 }
