@@ -8,4 +8,4 @@
 - <img align="left" alt="Javascript" width="26px" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" />NodeJs
 
 - <img align="left" alt="Postgres" width="26px" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" />Postgres
-- <img align="left" alt="Docker" width="26px" src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Moby-logo.png?itok=sYH_JEaJ" />Docker
+- <img align="left" alt="Docker" width="26px" src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" />Docker
