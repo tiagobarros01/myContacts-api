@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API to store contacts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagobarros01/myContacts-api.git"
+  },
+  "keywords": [],
+  "author": "Tiago Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagobarros01/myContacts-api/issues"
+  },
+  "homepage": "https://github.com/tiagobarros01/myContacts-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
